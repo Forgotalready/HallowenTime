@@ -11,6 +11,7 @@ class Application {
 
         if(diff < 0) {
             this.timeShowBlock.textContent = "Магия кончилась, хэллуин прошёл";
+            return;
         }
 
         this.timeShowBlock.textContent = Math.floor(diff);
